@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-board = [" "," ",nil," "," "," "," "," "," "]
+#board = [" "," ",nil," "," "," "," "," "," "]
 
 def position_taken?(board, index)
   if board[index] == "" || board[index] == " " || board[index] == nil
@@ -10,4 +10,4 @@ def position_taken?(board, index)
   end
 end
 
-puts position_taken?(board, 2)
+#puts position_taken?(board, 2)
